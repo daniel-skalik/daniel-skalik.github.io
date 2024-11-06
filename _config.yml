@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Daniel Skalík
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -18,28 +18,29 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
 
 
 ### Author Info ###
 author:
   name              : Daniel Skalík
   image             : /images/papouch.png
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : danes1111@gmail.com
+#  facebook          : your_username
+  github            : https://github.com/daniel-skalik
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : https://www.linkedin.com/in/danielskalik/
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -86,4 +87,6 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - pages/blog.html
+  - blog/
   - "*.log"

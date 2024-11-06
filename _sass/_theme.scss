@@ -8,8 +8,8 @@
   }
 }
 
-#theme-toggler:before {
-  @include themed(content, "🌙", "🌞");
+#theme-toggler-icon:before {
+  @include themed(content, "\f186", "\f185");
 }
 
 .navbar-themed {

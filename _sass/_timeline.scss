@@ -34,7 +34,14 @@
     .content {
       margin: 40px;
       padding-bottom: 20px;
-      border-bottom: 1px dashed $dark;
+
+      [data-theme="light"] & {
+        border-bottom: 1px dashed $dark;
+      }
+
+      [data-theme="dark"] & {
+        border-bottom: 1px dashed $light;
+      }
 
       .date {
         margin-top: -5px;
@@ -42,5 +49,9 @@
         color: #6c757d;
       }
     }
+
+    //[data-theme="dark"] .content {
+    //  border-bottom: 1px dashed $dark;
+    //}
   }
 }

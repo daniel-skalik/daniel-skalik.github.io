@@ -1,15 +1,19 @@
-- name: HTML5/CSS3
+- name: C#
+  percentage: 95
+  color: danger
+
+- name: Unity3D
+  percentage: 85
+  color: warning
+
+- name: Shader Programming
+  percentage: 40
+  color:
+
+- name: LINQ
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
-  color:
-
-- name: Python
+- name: Git
   percentage: 70
-  color: secondary
-
-- name: Test
-  percentage: 60
-  color: primary
+  color: success
