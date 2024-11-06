@@ -1,3 +1,46 @@
 ---
 ---
+
 @import "portfolYOU";
+
+$bg-time1: 9s;
+$bg-time2: 12s;
+$bg-time3: 15s;
+$bg-angle: -61.803deg;
+
+.bg {
+  animation: slide $bg-time1 ease-in-out infinite alternate;
+  bottom: 0;
+  left: -50%;
+  opacity: .5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+[data-theme="dark"] .bg {
+  background-image: linear-gradient($bg-angle, $dark-900 50%, $dark-800 50.5%);
+}
+
+[data-theme="light"] .bg {
+  background-image: linear-gradient($bg-angle, #fff 50%, #eee 50.5%);
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: $bg-time2;
+}
+
+.bg3 {
+  animation-duration: $bg-time3;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}

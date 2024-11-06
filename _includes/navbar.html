@@ -1,6 +1,29 @@
 <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+  <div class="container-flex">
+    <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+    <div class="container-fluid p-0 mt-1 justify-content-start">
+
+      {%- assign unfocused_color = "6c757d" -%}
+
+      {% for account in site.author %}
+
+      {%- assign service_name = account[0] -%}
+      {%- assign service_data = site.data.social-media[service_name] -%}
+      {%- if service_data -%}
+      <a class="social mr-2"  href="{{ service_data.url }}{{ account[1] }}"
+         style="color: #{{ unfocused_color }}"
+         onMouseOver="this.style.color='#{{ service_data.color }}'"
+         onMouseOut="this.style.color='#{{ unfocused_color }}'">
+        <i class="{{ service_data.icon }} fa-1x"></i>
+      </a>
+      {%- endif -%}
+
+      {% endfor %}
+
+    </div>
+  </div>
+
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -60,5 +83,6 @@
       </span>
     </div>
   </div>
+
 
 </nav>

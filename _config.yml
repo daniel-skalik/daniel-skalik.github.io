@@ -1,9 +1,6 @@
 ### Site Settings ###
 title               : Daniel Skalík
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+description         : "Writing code as reliable as Gandalf's wisdom — *no bugs shall pass*"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 #remote_theme        : YoussefRaafatNasry/portfolYOU
 
@@ -29,11 +26,11 @@ author:
 # dribbble          : your_username
   email             : danes1111@gmail.com
 #  facebook          : your_username
-  github            : https://github.com/daniel-skalik
+  github            : daniel-skalik
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : https://www.linkedin.com/in/danielskalik/
+  linkedin          : danielskalik
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
