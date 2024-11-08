@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="col-lg-10 mx-auto mt-5 post">
+    <h1 id="{{ page.name | slugify }}">
+        <b>{{ page.name }}</b>
+    </h1>
+
+    <p class="post-metadata text-muted">
+        {%- if page.tools != empty -%}
+        Platforms:
+        {% for platform in page.tools %}
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ platform }}</span>
+        {% endfor %}
+        {%- endif -%}
+
+        <br>
+
+        {%- if page.project_link -%}
+        Link: <em><a href="{{ page.project_link }}" class="no-underline">{{ page.project_link }}</a></em>
+        {%- endif -%}
+
+    </p>
+    {%- if page.description != empty -%}
+    <blockquote>
+        <p>{{ page.description }}</p>
+    </blockquote>
+    {%- endif -%}
+
+    {%- if page.project_scope or page.project_role or page.project_duration or page.team_size -%}
+    <h3 id="project-details">Project details</h3>
+    <div id="project-details-container">
+    <p id="project-details-text">
+        {%- if page.project_scope -%}
+        Project scope: {{ page.project_scope }}<br>
+        {%- endif -%}
+
+        {%- if page.project_role -%}
+        Project role: {{ page.project_role }}<br>
+        {%- endif -%}
+
+        {%- if page.project_duration -%}
+        Project duration: {{ page.project_duration }}<br>
+        {%- endif -%}
+
+        {%- if page.team_size -%}
+        Team size: {{ page.team_size }}
+        {%- endif -%}
+    </p>
+    </div>
+    {%- endif -%}
+
+    {{ content }}
+</div>

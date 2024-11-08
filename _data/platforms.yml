@@ -1,0 +1,15 @@
+desktop:
+  title : Behance
+  icon  : fas fa-desktop
+
+ios:
+  title : iOS
+  icon  : fab fa-apple
+
+android:
+  title : Android
+  icon  : fab fa-android
+
+web:
+  title : Web
+  icon  : fas fa-globe

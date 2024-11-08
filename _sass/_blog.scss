@@ -52,6 +52,14 @@
     margin: 1rem auto;
   }
 
+  img:not(.emoji).left {
+    margin: 1rem auto 1rem 0;
+  }
+
+  img:not(.emoji).right {
+    margin: 1rem 0 1rem auto;
+  }
+
   .video {
     position: relative;
     padding-bottom: 56.25%;
@@ -62,6 +70,11 @@
       height: 100%;
       width: 100%;
     }
+  }
+
+  a.no-underline {
+    display: inline-block;
+    text-decoration: none;
   }
 
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {

@@ -44,3 +44,15 @@ $bg-angle: -61.803deg;
     transform: translateX(25%);
   }
 }
+
+#project-details-container {
+  position: relative;
+  border-radius: 0 15px 15px 0;
+  padding: 5px 0;
+  @include themed(background-color, $light, $dark);
+}
+
+#project-details-container {
+  margin: 40px;
+  padding-bottom: 20px;
+}

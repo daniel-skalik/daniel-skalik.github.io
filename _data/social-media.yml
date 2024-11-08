@@ -2,96 +2,121 @@
 # Get Colors from : https://brandcolors.net/
 
 behance:
-  url   : https://www.behance.net/
+  url   : https://www.behance.net/{0}
+  title : Behance
   icon  : fab fa-behance
   color : 1769ff
 
 dribbble:
-  url   : https://dribbble.com/
+  url   : https://dribbble.com/{0}
+  title : Dribbble
   icon  : fab fa-dribbble
   color : 444444
 
 email:
-  url   : "mailto:"
+  url   : "mailto:{0}"
+  title : Email
   icon  : fas fa-envelope
   color : db4437
 
 facebook:
-  url   : https://www.facebook.com/
+  url   : https://www.facebook.com/{0}
+  title : Facebook
   icon  : fab fa-facebook
   color : 3b5998
 
 github:
-  url   : https://www.github.com/
+  url   : https://www.github.com/{0}
+  title : GitHub
   icon  : fab fa-github
   color : 333333
 
 gitlab:
-  url   : https://www.gitlab.com/
+  url   : https://www.gitlab.com/{0}
+  title : GitLab
   icon  : fab fa-gitlab
   color : fca326
 
 instagram:
-  url   : https://www.instagram.com/
+  url   : https://www.instagram.com/{0}
+  title : Instagram
   icon  : fab fa-instagram
   color : 405de6
   
 kaggle:
-  url   : https://www.kaggle.com/
+  url   : https://www.kaggle.com/{0}
+  title : Kaggle
   icon  : fab fa-kaggle
   color : 20beff
 
 linkedin:
-  url   : https://www.linkedin.com/in/
+  url   : https://www.linkedin.com/in/{0}
+  title : LinkedIn
   icon  : fab fa-linkedin-in
   color : 007bb5
 
 medium:
-  url   : https://medium.com/@
+  url   : https://medium.com/@{0}
+  title : Medium
   icon  : fab fa-medium
   color : 00ab6c
 
 soundcloud:
-  url   : https://www.soundcloud.com/
+  url   : https://www.soundcloud.com/{0}
+  title : SoundCloud
   icon  : fab fa-soundcloud
   color : ff8800
 
 spotify:
-  url   : https://open.spotify.com/user/
+  url   : https://open.spotify.com/user/{0}
+  title : Spotify
   icon  : fab fa-spotify
   color : 1db954
 
 stackoverflow:
-  url   : https://stackoverflow.com/u/
+  url   : https://stackoverflow.com/u/{0}
+  title : Stack Overflow
   icon  : fab fa-stack-overflow
   color : f48024
 
 tumblr:
-  url   : https://
+  url   : https://{0}
+  title : Tumblr
   icon  : fab fa-tumblr
   color : 35465c
 
 twitch:
-  url   : https://www.twitch.tv/
+  url   : https://www.twitch.tv/{0}
+  title : Twitch
   icon  : fab fa-twitch
   color : 6441a5
 
 twitter:
-  url   : https://www.twitter.com/
+  url   : https://www.twitter.com/{0}
+  title : Twitter
   icon  : fab fa-twitter
   color : 1da1f2
 
 vimeo:
-  url   : https://www.vimeo.com/
+  url   : https://www.vimeo.com/{0}
+  title : Vimeo
   icon  : fab fa-vimeo-v
   color : 162221
 
 youtube:
-  url   : https://www.youtube.com/
+  url   : https://www.youtube.com/{0}
+  title : YouTube
   icon  : fab fa-youtube
   color : ff0000
 
 keybase:
-  url   : https://www.keybase.io/
+  url   : https://www.keybase.io/{0}
+  title : Keybase
   icon  : fab fa-keybase
   color : 66ccff
+
+itchio:
+  url   : https://{0}.itch.io/
+  title : Itch.io
+  icon  : fab fa-itch-io
+  color : fa5c5c

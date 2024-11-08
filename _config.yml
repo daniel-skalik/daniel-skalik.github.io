@@ -21,16 +21,17 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Daniel Skalík
-  image             : /images/papouch.png
+  image             : /assets/images/papouch.png
+  email             : danes1111@gmail.com
+  github            : daniel-skalik
+  linkedin          : danielskalik
+  itchio          : skalikdaniel
 #  behance           : your_username
 # dribbble          : your_username
-  email             : danes1111@gmail.com
 #  facebook          : your_username
-  github            : daniel-skalik
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : danielskalik
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
