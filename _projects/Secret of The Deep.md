@@ -1,11 +1,15 @@
 ---
 layout: project
-name: Secret of The Deep
-tools: [desktop, iOS, android]
-image: /assets/images/secret-of-the-deep/thumbnail.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 order: 1
-project_link: http://www.google.com/
+
+name: Secret of The Deep
+image: /assets/images/secret-of-the-deep/thumbnail.jpg
+carousel_images: []
+tools: [desktop]
+project_links: [https://www.esanti.games/]
+
+description: >-
+  Single-player action-adventure game, blending RPG mechanics, hack-and-slash combat, and resource management. Set in a dark and mysterious world called "The Deep," players battle through hordes of corrupted enemies, gather resources, and uncover hidden secrets. The game emphasizes exploration, storytelling, and rebuilding a settlement while uncovering the protagonist's enigmatic past
 project_scope: Indie
 project_role: Unity Developer
 project_duration: 1 year
@@ -13,11 +17,31 @@ team_size: 25
 ---
 
 ### Game features
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- TODO
 
 ### Technologies
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- Unity Frameworks and Features
+  - Unity Input System
+  - Unity Animation
+  - Timeline
+  - Cinemachine
+  - Unity Physics
+  - Shader Graph
+  - NavMesh
+  - Unity Addressables
+  - Unity UI
+- Graphics and Rendering
+  - HDRP
+  - Lightmapping
+  - Reflection Probes
+- Audio
+  - Wwise
+- Third-Party Tools/Plugins
+  - DOTween
+  - TextMesh Pro
+  - Odin Inspector
+- Others
+  - Unity Analytics
 
 ### Challenges and solutions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+- TODO

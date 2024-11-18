@@ -1,20 +1,20 @@
 ---
 layout: project
-name: Epicars
-tools: [android, iOS, web]
-image: /assets/images/epicars/thumbnail.webp
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 order: 7
+
+name: Epicars
+image: /assets/images/epicars/thumbnail.webp
+carousel_images: []
+tools: [android]
+project_links: [https://play.google.com/store/apps/details?id=com.retrobot.epicars]
+
+description: >-
+    DESCRIPTION
+project_scope: Indie (prototype)
+project_role: Unity Developer
+project_duration: 6 months
+team_size: 5
 ---
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-### Project details
-
-Project scope: Indie  
-Project role: Unity Developer  
-Project duration: 1 year  
-Team size: 25
 
 ### Game features
 

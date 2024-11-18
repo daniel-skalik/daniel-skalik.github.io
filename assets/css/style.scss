@@ -45,14 +45,16 @@ $bg-angle: -61.803deg;
   }
 }
 
-#project-details-container {
-  position: relative;
-  border-radius: 0 15px 15px 0;
-  padding: 5px 0;
-  @include themed(background-color, $light, $dark);
-}
+$carousel-height: 600px;
 
-#project-details-container {
-  margin: 40px;
-  padding-bottom: 20px;
+.carousel {
+  height: $carousel-height;
+  overflow: hidden;
+
+  .carousel-item img {
+    @include themed(background-color, #eee, $dark-800);
+    height: $carousel-height;
+    width: auto;
+    object-fit: contain;
+  }
 }

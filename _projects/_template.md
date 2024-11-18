@@ -1,19 +1,20 @@
 ---
 layout: project
-order: 5
+order: 10
 
-name: Virtuloc - Virtual Showroom Platform
-image: /assets/images/virtuloc/thumbnail.jpg
+name: NAME
+image: IMAGE
 carousel_images: [IMAGE1, IMAGE2, IMAGE3]
-tools: [web]
+video: VIDEO
+tools: [desktop, android, iOS, web]
 project_links: [LINK]
 
 description: >-
     DESCRIPTION
 project_scope: Indie
 project_role: Unity Developer
-project_duration: 6 months
-team_size: 8
+project_duration: DURATION
+team_size: TEAM_SIZE
 ---
 
 ### Game features

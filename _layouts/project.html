@@ -17,8 +17,18 @@ layout: default
 
         <br>
 
-        {%- if page.project_link -%}
-        Link: <em><a href="{{ page.project_link }}" class="no-underline">{{ page.project_link }}</a></em>
+        {%- if page.project_links -%}
+
+        {%- if page.project_links.size == 1 -%}
+        Link:
+        {%- else -%}
+        Links:
+        {%- endif -%}
+
+        {%- for project_link in page.project_links -%}
+        {%- assign domain = project_link | split: "//" | last | split: "/" | first -%}
+        <em><a href="{{ project_link }}" class="no-underline ml-1 mr-3">{{ domain }}</a></em>
+        {%- endfor -%}
         {%- endif -%}
 
     </p>
@@ -28,26 +38,42 @@ layout: default
     </blockquote>
     {%- endif -%}
 
+    {%- if page.carousel_images and page.carousel_images.size > 0 -%}
+        {% assign carousel_images = page.carousel_images | join: "," %}
+        {% include elements/carousel.html %}
+    {%- endif -%}
+    {%- if page.video -%}
+        {% include elements/video.html id = page.video %}
+    {%- endif -%}
+
     {%- if page.project_scope or page.project_role or page.project_duration or page.team_size -%}
-    <h3 id="project-details">Project details</h3>
+    <!--    <h3 id="project-details">Project details</h3>-->
     <div id="project-details-container">
-    <p id="project-details-text">
-        {%- if page.project_scope -%}
-        Project scope: {{ page.project_scope }}<br>
-        {%- endif -%}
+        <p id="project-details-text">
+            {%- if page.project_scope -%}
+            {%- assign project_details_title = "Project scope:" -%}
+            {%- assign project_details_value = page.project_scope -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
 
-        {%- if page.project_role -%}
-        Project role: {{ page.project_role }}<br>
-        {%- endif -%}
+            {%- if page.project_role -%}
+            {%- assign project_details_title = "Project role:" -%}
+            {%- assign project_details_value = page.project_role -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
 
-        {%- if page.project_duration -%}
-        Project duration: {{ page.project_duration }}<br>
-        {%- endif -%}
+            {%- if page.project_duration -%}
+            {%- assign project_details_title = "Project duration:" -%}
+            {%- assign project_details_value = page.project_duration -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
 
-        {%- if page.team_size -%}
-        Team size: {{ page.team_size }}
-        {%- endif -%}
-    </p>
+            {%- if page.team_size -%}
+            {%- assign project_details_title = "Team size:" -%}
+            {%- assign project_details_value = page.team_size -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
+        </p>
     </div>
     {%- endif -%}
 
