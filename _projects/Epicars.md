@@ -5,7 +5,7 @@ order: 7
 name: Epicars
 image: /assets/images/epicars/thumbnail.webp
 carousel_images: []
-tools: [android]
+tools: [Android]
 project_links: [https://play.google.com/store/apps/details?id=com.retrobot.epicars]
 
 description: >-

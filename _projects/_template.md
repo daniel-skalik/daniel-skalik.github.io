@@ -6,7 +6,7 @@ name: NAME
 image: IMAGE
 carousel_images: [IMAGE1, IMAGE2, IMAGE3]
 video: VIDEO
-tools: [desktop, android, iOS, web]
+tools: [Desktop, Android, iOS, Web]
 project_links: [LINK]
 
 description: >-

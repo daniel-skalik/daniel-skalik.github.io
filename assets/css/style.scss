@@ -49,17 +49,31 @@ $bg-angle: -61.803deg;
 .carousel {
   overflow: hidden;
 
-  .carousel-item img {
-    @include themed(background-color, #eee, $dark-800);
+  .carousel-inner {
+    height: 100%;
+  }
 
-    object-fit: contain;
+  .carousel-item {
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+      @include themed(background-color, #eee, $dark-800);
+    }
   }
 }
 
-//.carousel {
-//  aspect-ratio: 1;
-//}
-
-.blockquote-no-color{
+.blockquote-no-color {
   @include themed(color, inherit, inherit);
+}
+
+.project-post {
+  h1 { color: #6c757d !important; }
+  h2 { color: #6c757d !important; }
+  h3 { color: #6c757d !important; }
+  h4 { color: #6c757d !important; }
+  h5 { color: #6c757d !important; }
+  h6 { color: #6c757d !important; }
 }

@@ -14,11 +14,15 @@ carousel_images: [
   /assets/images/dungero/stronghold.png,
   /assets/images/dungero/pyramide.png,
 ]
-tools: [ android, iOS ]
+tools: [ Android, iOS ]
 project_links: [ https://www.dungero.com/ ]
 
 description: >-
-  DESCRIPTION
+  A dynamic offline action RPG featuring roguelike mechanics and one-thumb gameplay. 
+  Venture into dungeons teeming with monsters, traps, and loot as you customize your hero with unique playstyles—archer, warrior, rogue, or mage. \n
+  Collect magical equipment, harness new abilities, and navigate a unique system of bonuses and curses that shape your journey. 
+  With challenging quests, epic bosses, and fast-paced combat, Dungero offers endless replayability in an enchanting fantasy world. 
+  Perfect for fans of dungeon crawlers and strategic gameplay
 project_scope: Indie
 project_role: Unity Developer
 project_duration: 1 year

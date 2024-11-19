@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="col-lg-10 mx-auto mt-5 post">
+<div class="col-lg-10 mx-auto mt-5 post project-post">
     <h1 id="{{ page.name | slugify }}">
         <b>{{ page.name }}</b>
     </h1>
@@ -64,19 +64,26 @@ layout: default
     <hr>
 
     {%- if page.description != empty -%}
-    <p>{{ page.description }}</p>
+    {% assign description_split = page.description | split: "\n" %}
+
+    {% for description_item in description_split %}
+    <p>{{ description_item }}</p>
+
+    {% endfor %}
+
     {%- endif -%}
 
     {{ content }}
 
     <hr>
 
-    {%- if page.carousel_images and page.carousel_images.size > 0 -%}
-    {% assign carousel_images = page.carousel_images | join: "," %}
-    {% include elements/carousel.html %}
-    {%- endif -%}
-
     {%- if page.video -%}
     {% include elements/video.html id = page.video %}
+    {%- endif -%}
+
+    {%- if page.carousel_images and page.carousel_images.size > 0 -%}
+    {% assign carousel_images = page.carousel_images | join: "," %}
+    {% assign aspect_ratio = page.aspect_ratio %}
+    {% include elements/carousel.html %}
     {%- endif -%}
 </div>

@@ -8,7 +8,6 @@ baseurl             : ""                     # Change to empty quotes if you are
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-image-size
 
 
 ### Navbar Settings ###

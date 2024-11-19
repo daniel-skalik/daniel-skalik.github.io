@@ -1,6 +1,10 @@
 {%- assign images = carousel_images | strip | split: "," -%}
 
-<div id="carouselExampleIndicators" class="carousel slide mb-3" data-ride="false">
+{% if aspect_ratio == nil %}
+{%- assign aspect_ratio = "16/9" -%}
+{% endif %}
+
+<div id="carouselExampleIndicators" class="carousel slide mb-3" data-ride="false" style="aspect-ratio: {{ aspect_ratio }}">
 
   <ol class="carousel-indicators">
     {% for image in images %}
