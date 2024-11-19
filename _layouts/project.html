@@ -8,15 +8,6 @@ layout: default
     </h1>
 
     <p class="post-metadata text-muted">
-        {%- if page.tools != empty -%}
-        Platforms:
-        {% for platform in page.tools %}
-        <span class="badge badge-pill text-primary border border-primary ml-1">{{ platform }}</span>
-        {% endfor %}
-        {%- endif -%}
-
-        <br>
-
         {%- if page.project_links -%}
 
         {%- if page.project_links.size == 1 -%}
@@ -27,38 +18,25 @@ layout: default
 
         {%- for project_link in page.project_links -%}
         {%- assign domain = project_link | split: "//" | last | split: "/" | first -%}
-        <em><a href="{{ project_link }}" class="no-underline ml-1 mr-3">{{ domain }}</a></em>
+        <em><a href="{{ project_link }}" class="no-underline ml-1 mr-1">[ {{ domain }} ]</a></em>
         {%- endfor -%}
         {%- endif -%}
 
     </p>
-    {%- if page.description != empty -%}
-    <blockquote>
-        <p>{{ page.description }}</p>
-    </blockquote>
-    {%- endif -%}
-
-    {%- if page.carousel_images and page.carousel_images.size > 0 -%}
-        {% assign carousel_images = page.carousel_images | join: "," %}
-        {% include elements/carousel.html %}
-    {%- endif -%}
-    {%- if page.video -%}
-        {% include elements/video.html id = page.video %}
-    {%- endif -%}
 
     {%- if page.project_scope or page.project_role or page.project_duration or page.team_size -%}
     <!--    <h3 id="project-details">Project details</h3>-->
     <div id="project-details-container">
         <p id="project-details-text">
-            {%- if page.project_scope -%}
-            {%- assign project_details_title = "Project scope:" -%}
-            {%- assign project_details_value = page.project_scope -%}
-            {% include projects/project-details.html %}
-            {%- endif -%}
-
             {%- if page.project_role -%}
             {%- assign project_details_title = "Project role:" -%}
             {%- assign project_details_value = page.project_role -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
+
+            {%- if page.project_scope -%}
+            {%- assign project_details_title = "Project scope:" -%}
+            {%- assign project_details_value = page.project_scope -%}
             {% include projects/project-details.html %}
             {%- endif -%}
 
@@ -73,9 +51,32 @@ layout: default
             {%- assign project_details_value = page.team_size -%}
             {% include projects/project-details.html %}
             {%- endif -%}
+
+            {%- if page.tools != empty -%}
+            {%- assign project_details_title = "Platforms:" -%}
+            {%- assign project_details_value = page.tools | array_to_sentence_string  -%}
+            {% include projects/project-details.html %}
+            {%- endif -%}
         </p>
     </div>
     {%- endif -%}
 
+    <hr>
+
+    {%- if page.description != empty -%}
+    <p>{{ page.description }}</p>
+    {%- endif -%}
+
     {{ content }}
+
+    <hr>
+
+    {%- if page.carousel_images and page.carousel_images.size > 0 -%}
+    {% assign carousel_images = page.carousel_images | join: "," %}
+    {% include elements/carousel.html %}
+    {%- endif -%}
+
+    {%- if page.video -%}
+    {% include elements/video.html id = page.video %}
+    {%- endif -%}
 </div>

@@ -4,9 +4,23 @@ order: 1
 
 name: Secret of The Deep
 image: /assets/images/secret-of-the-deep/thumbnail.jpg
-carousel_images: []
-tools: [desktop]
-project_links: [https://www.esanti.games/]
+carousel_images:
+        [
+          /assets/images/secret-of-the-deep/0.jpg,
+          /assets/images/secret-of-the-deep/1.jpg,
+          /assets/images/secret-of-the-deep/2.jpg,
+          /assets/images/secret-of-the-deep/3.jpg,
+          /assets/images/secret-of-the-deep/4.jpg,
+          /assets/images/secret-of-the-deep/5.jpg,
+          /assets/images/secret-of-the-deep/6.jpg,
+          /assets/images/secret-of-the-deep/7.jpg,
+          /assets/images/secret-of-the-deep/8.jpg,
+          /assets/images/secret-of-the-deep/9.jpg,
+          /assets/images/secret-of-the-deep/10.jpg,
+          /assets/images/secret-of-the-deep/11.jpg,
+        ]
+tools: [ desktop, iOS, android ]
+project_links: [ https://www.esanti.games/, https://store.steampowered.com/app/2709410 ]
 
 description: >-
   Single-player action-adventure game, blending RPG mechanics, hack-and-slash combat, and resource management. Set in a dark and mysterious world called "The Deep," players battle through hordes of corrupted enemies, gather resources, and uncover hidden secrets. The game emphasizes exploration, storytelling, and rebuilding a settlement while uncovering the protagonist's enigmatic past

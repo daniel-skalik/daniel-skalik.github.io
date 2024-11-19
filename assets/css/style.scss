@@ -45,16 +45,21 @@ $bg-angle: -61.803deg;
   }
 }
 
-$carousel-height: 600px;
 
 .carousel {
-  height: $carousel-height;
   overflow: hidden;
 
   .carousel-item img {
     @include themed(background-color, #eee, $dark-800);
-    height: $carousel-height;
-    width: auto;
+
     object-fit: contain;
   }
+}
+
+//.carousel {
+//  aspect-ratio: 1;
+//}
+
+.blockquote-no-color{
+  @include themed(color, inherit, inherit);
 }
