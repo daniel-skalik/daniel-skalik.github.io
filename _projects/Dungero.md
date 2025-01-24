@@ -16,6 +16,7 @@ carousel_images: [
 ]
 tools: [ Android, iOS ]
 project_links: [ https://www.dungero.com/ ]
+client: Retrobot
 
 description: >-
   A dynamic offline action RPG featuring roguelike mechanics and one-thumb gameplay. 

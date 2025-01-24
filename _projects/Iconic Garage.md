@@ -7,6 +7,7 @@ image: /assets/images/iconic-garage/thumbnail.jpg
 carousel_images: []
 tools: [Android, iOS]
 project_links: [https://play.google.com/store/apps/details?id=cz.iconicgarage.design, https://apps.apple.com/us/app/iconic-garage/id1524606092]
+client: Retrobot
 
 description: >-
   Creative tool designed for car enthusiasts, particularly fans of the classic Mini Cooper. \n

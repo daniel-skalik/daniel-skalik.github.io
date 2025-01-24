@@ -7,6 +7,7 @@ image: /assets/images/koopartaci/thumbnail.webp
 carousel_images: []
 tools: [Android, iOS]
 project_links: [LINK]
+client: Retrobot
 
 description: >-
   A unique gamified application primarily designed for employees and traders of Kooperativa Insurance. \n

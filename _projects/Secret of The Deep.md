@@ -21,6 +21,7 @@ carousel_images:
         ]
 tools: [ Desktop, iOS, Android ]
 project_links: [ https://www.esanti.games/, https://store.steampowered.com/app/2709410 ]
+client: Esanti
 
 description: >-
   Single-player action-adventure game, blending RPG mechanics, hack-and-slash combat, and resource management. 
@@ -37,27 +38,24 @@ team_size: 25
 
 ### Technologies
 - Unity Frameworks and Features
-  - Unity Input System
-  - Unity Animation
-  - Timeline
-  - Cinemachine
-  - Unity Physics
-  - Shader Graph
+  - Addressables
+  - AI navigations
   - NavMesh
-  - Unity Addressables
-  - Unity UI
-- Graphics and Rendering
-  - HDRP
-  - Lightmapping
-  - Reflection Probes
+  - Unity Physics
+- Graphics
+  - Shader graph
+  - ShaderLab
 - Audio
   - Wwise
 - Third-Party Tools/Plugins
+  - UniTask - extensively used for async programming and partial replacement for coroutines
+  - I2 Localization - 
   - DOTween
-  - TextMesh Pro
   - Odin Inspector
+  - Dialogue system
+  - Strider
 - Others
-  - Unity Analytics
+  - Unity Cloud Diagnostics
 
 ### Challenges and solutions
 - TODO

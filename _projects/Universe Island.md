@@ -7,6 +7,7 @@ image: /assets/images/universe-island/thumbnail.png
 carousel_images: []
 tools: [Desktop, Android, iOS]
 project_links: [https://universeisland.games/]
+client: Universe Island LLC
 
 description: >-
   An action-packed third-person mobile shooter game set in a futuristic sci-fi world. \n

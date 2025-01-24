@@ -4,7 +4,11 @@
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title | markdownify }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          {%- assign date = item.from -%}
+          {%- unless item.to == nil or item.to == "" -%}
+              {%- assign date = item.from | append: " — " | append: item.to -%}
+          {%- endunless -%}
+          <h6 class="date">{{ date }}</h6>
           <p>{{ item.description }}</p>
         </div>
       </div>

@@ -7,6 +7,7 @@ image: /assets/images/virtuloc/thumbnail.jpg
 carousel_images: []
 tools: [Web]
 project_links: [LINK]
+client: Virtuloc
 
 description: >-
   The Virtuloc platform is a web-based virtual showroom solution designed to meet diverse business needs. 
