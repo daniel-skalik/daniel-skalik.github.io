@@ -7,7 +7,7 @@ image: /assets/images/smackdown/thumbnail.png
 carousel_images: []
 video: GvluxMkC9ag
 tools: [Android, iOS]
-project_links: [LINK]
+project_links: [https://play.google.com/store/apps/details?id=com.craneballs.smackdown&hl=cs]
 client: Craneballs
 
 description: >-

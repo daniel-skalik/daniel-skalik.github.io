@@ -1,20 +1,34 @@
-- name: UniTask
-  url: https://github.com/Cysharp/UniTask
-- name: DOTween
-  url: https://dotween.demigiant.com/
-- name: I2 Localization
-  url: https://assetstore.unity.com/packages/tools/localization/i2-localization-14884
-- name: Wwise
-  url: https://www.audiokinetic.com/en/wwise/overview/
-- name: Dialogue system
-  url: https://www.pixelcrushers.com/dialogue-system/
-- name: Strider
-  url: https://assetstore.unity.com/packages/tools/animation/strider-162020
-- name: DarkRift Networking
-  url: https://github.com/DarkRiftNetworking/DarkRift
-- name: Photon PUN 2
-  url: https://www.photonengine.com/pun
-- name: Newtonsoft JSON
-  url: https://www.newtonsoft.com/json
-- name: Odin Inspector
-  url: https://odininspector.com/
+tools:
+  - name: UniTask
+    url: https://github.com/Cysharp/UniTask
+  - name: DOTween
+    url: https://dotween.demigiant.com/
+  - name: I2 Localization
+    url: https://assetstore.unity.com/packages/tools/localization/i2-localization-14884
+  - name: Wwise
+    url: https://www.audiokinetic.com/en/wwise/overview/
+  - name: Dialogue system
+    url: https://www.pixelcrushers.com/dialogue-system/
+  - name: Strider
+    url: https://assetstore.unity.com/packages/tools/animation/strider-162020
+  - name: DarkRift Networking
+    url: https://github.com/DarkRiftNetworking/DarkRift
+  - name: Photon PUN 2
+    url: https://www.photonengine.com/pun
+  - name: Newtonsoft JSON
+    url: https://www.newtonsoft.com/json
+  - name: Odin Inspector
+    url: https://odininspector.com/
+clients:
+  - name: Tieto
+    url: https://www.tietoevry.com/
+  - name: Craneballs
+    url: https://visiongame.cz/studio/craneballs/
+  - name: Retrobot
+    url: https://www.retrobot.cz/
+  - name: Universe Island LLC
+    url: https://universeisland.games/
+  - name: Virtuloc
+    url: https://www.virtuloc.com/
+  - name: Esanti
+    url: https://www.esanti.games/

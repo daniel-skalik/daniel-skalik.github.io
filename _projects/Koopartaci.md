@@ -4,6 +4,7 @@ order: 3
 
 name: Koopartaci
 image: /assets/images/koopartaci/thumbnail.webp
+video: Oidoxk60COw
 carousel_images: []
 tools: [Android, iOS]
 project_links: [LINK]

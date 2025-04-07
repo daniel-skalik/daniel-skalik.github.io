@@ -6,7 +6,7 @@ name: Virtuloc - Virtual Showroom Platform
 image: /assets/images/virtuloc/thumbnail.jpg
 carousel_images: []
 tools: [Web]
-project_links: [LINK]
+project_links: [https://www.virtuloc.com/]
 client: Virtuloc
 
 description: >-

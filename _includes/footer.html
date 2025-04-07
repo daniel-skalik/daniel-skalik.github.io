@@ -1,14 +1,19 @@
 <footer class="mt-auto py-3 text-center">
 
-  <small class="text-muted mb-2 ">
-    Created by <strong>{{ site.author.name }}</strong>
-  </small>
+    <small class="text-muted mb-2 ">
+        <strong>{{ site.author.name }}</strong>
+    </small>
 
-  {%- assign theme_name = "portfolYOU" -%}
-  {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
+    {%- assign theme_name = "portfolYOU" -%}
+    {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
 
-  <small class="text-muted mb-2 fs-">
-    { theme <a href="{{ theme_repo }}">{{ theme_name }}</a> }
-  </small>
-
+    <small class="text-muted mb-2 fs-">
+        {
+        <a class="social"
+           href="mailto:{{ site.author.email }}"
+           target="_blank"
+           title="Email"> {{ site.author.email }}
+        </a>
+        }
+    </small>
 </footer>

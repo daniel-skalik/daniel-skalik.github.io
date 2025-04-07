@@ -18,96 +18,49 @@ layout: default
 
         {%- for project_link in page.project_links -%}
         {%- assign domain = project_link | split: "//" | last | split: "/" | first -%}
-        <em><a href="{{ project_link }}" class="no-underline ml-1 mr-1">[ {{ domain }} ]</a></em>
+        <em><a href="{{ project_link }}" target="_blank" class="no-underline ml-1 mr-1">[ {{ domain }} ]</a></em>
         {%- endfor -%}
         {%- endif -%}
 
     </p>
 
-    {%- if page.project_scope or page.project_role or page.project_duration or page.team_size or page.tools or page.client -%}
-    <!--    <h3 id="project-details">Project details</h3>-->
-
     <div class="container" id="project-details-container">
-    <div class="row">
-        {%- if page.project_role and page.project_role -%}
-        {%- assign project_details_title = "Project role:" -%}
-        {%- assign project_details_value = page.project_role -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
+        <div class="row row-cols-sm-1 row-cols-lg-2">
+            {%- assign project_details_title = "Project role:" -%}
+            {%- assign project_details_value = page.project_role -%}
+            {% include projects/project-details.html %}
 
-        {%- if page.client and page.client != empty -%}
-        {%- assign project_details_title = "Client:" -%}
-        {%- assign project_details_value = page.client  -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
 
-        {%- if page.project_duration and page.project_duration -%}
-        {%- assign project_details_title = "Project duration:" -%}
-        {%- assign project_details_value = page.project_duration -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
+            {%- assign linkified_client = page.client -%}
+            {% for link in site.data.links.clients %}
+            {% capture link_html %}
+            {{ link.name }} <a href="{{ link.url }}" target="_blank" class="no-underline" title="External link"><sup><i class="fas fa-external-link-alt font-size"></i></sup></a>
+            {% endcapture %}
 
-        {%- if page.project_scope and page.project_scope -%}
-        {%- assign project_details_title = "Project scope:" -%}
-        {%- assign project_details_value = page.project_scope -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
+            {%- assign linkified_client = linkified_client | replace: link.name, link_html -%}
+            {% endfor %}
 
-        {%- if page.team_size and page.team_size -%}
-        {%- assign project_details_title = "Team size:" -%}
-        {%- assign project_details_value = page.team_size -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
+            {%- assign project_details_title = "Client:" -%}
+            {%- assign project_details_value = linkified_client -%}
+            {% include projects/project-details.html %}
 
-        {%- if page.tools and page.tools != empty -%}
-        {%- assign project_details_title = "Platforms:" -%}
-        {%- assign project_details_value = page.tools | array_to_sentence_string  -%}
-        {% include projects/project-details.html %}
-        {%- endif -%}
+            {%- assign project_details_title = "Project duration:" -%}
+            {%- assign project_details_value = page.project_duration -%}
+            {% include projects/project-details.html %}
+
+            {%- assign project_details_title = "Project scope:" -%}
+            {%- assign project_details_value = page.project_scope -%}
+            {% include projects/project-details.html %}
+
+            {%- assign project_details_title = "Team size:" -%}
+            {%- assign project_details_value = page.team_size -%}
+            {% include projects/project-details.html %}
+
+            {%- assign project_details_title = "Platforms:" -%}
+            {%- assign project_details_value = page.tools | array_to_sentence_string  -%}
+            {% include projects/project-details.html %}
+        </div>
     </div>
-    </div>
-
-
-<!--    <div id="project-details-container">-->
-<!--        <p id="project-details-text">-->
-<!--            {%- if page.project_role and page.project_role -%}-->
-<!--            {%- assign project_details_title = "Project role:" -%}-->
-<!--            {%- assign project_details_value = page.project_role -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-
-<!--            {%- if page.project_scope and page.project_scope -%}-->
-<!--            {%- assign project_details_title = "Project scope:" -%}-->
-<!--            {%- assign project_details_value = page.project_scope -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-
-<!--            {%- if page.project_duration and page.project_duration -%}-->
-<!--            {%- assign project_details_title = "Project duration:" -%}-->
-<!--            {%- assign project_details_value = page.project_duration -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-
-<!--            {%- if page.team_size and page.team_size -%}-->
-<!--            {%- assign project_details_title = "Team size:" -%}-->
-<!--            {%- assign project_details_value = page.team_size -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-
-<!--            {%- if page.tools and page.tools != empty -%}-->
-<!--            {%- assign project_details_title = "Platforms:" -%}-->
-<!--            {%- assign project_details_value = page.tools | array_to_sentence_string  -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-
-<!--            {%- if page.client and page.client != empty -%}-->
-<!--            {%- assign project_details_title = "Client:" -%}-->
-<!--            {%- assign project_details_value = page.client  -%}-->
-<!--            {% include projects/project-details.html %}-->
-<!--            {%- endif -%}-->
-<!--        </p>-->
-<!--    </div>-->
-    {%- endif -%}
 
     <hr>
 
@@ -133,7 +86,7 @@ layout: default
     {%- endif -%}
 
     {%- assign linkified_content = content -%}
-    {% for link in site.data.links %}
+    {% for link in site.data.links.tools %}
         {% capture link_html %}
         {{ link.name }} <a href="{{ link.url }}" class="no-underline" title="External link"><sup><i class="fas fa-external-link-alt font-size"></i></sup></a>
         {% endcapture %}
@@ -143,12 +96,17 @@ layout: default
 
     {{ linkified_content }}
 
+    {%- if page.project_links -%}
+
     <hr>
     <div class="d-flex flex-wrap justify-content-center">
     {%- for project_link in page.project_links -%}
     {%- assign domain = project_link | split: "//" | last | split: "/" | first -%}
-    <a href="{{ project_link }}" class="no-underline ml-1 mr-1">[ {{ domain }} ]</a>
+    <a href="{{ project_link }}" target="_blank" class="no-underline ml-1 mr-1">[ {{ domain }} ]</a>
     {%- endfor -%}
     </div>
+
+    {%- endif -%}
+
     <hr>
 </div>
