@@ -33,29 +33,18 @@ project_duration: 1 year
 team_size: 25
 ---
 
-### Game features
-- TODO
-
-### Technologies
-- Unity Frameworks and Features
-  - Addressables
-  - AI navigations
-  - NavMesh
-  - Unity Physics
-- Graphics
-  - Shader graph
-  - ShaderLab
-- Audio
-  - Wwise
-- Third-Party Tools/Plugins
-  - UniTask - extensively used for async programming and partial replacement for coroutines
-  - I2 Localization - 
-  - DOTween
-  - Odin Inspector
-  - Dialogue system
-  - Strider
-- Others
-  - Unity Cloud Diagnostics
+### My Contributions
+- **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.​
+- **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.​
+- **NPC Logic**: Designed and implemented AI behaviors for non-playable characters to enhance immersion.​
+- **Wwise Integration**: Integrated Wwise for audio management, addressing sound engineers' requests to enrich the game's soundscape.​
+- **Addressables Integration**: Utilized Unity's Addressables system for efficient asset management and loading.​
+- **Cutscenes**: Integrated custom systems with Unity's Timeline to create seamless in-game cutscenes.​
+- **Dialogue System**: Developed a robust system to manage in-game conversations and branching dialogues.​
+- **Service Locator**: Implemented a service locator pattern to streamline access to game services and improve code maintainability.​
+- **Writing/making Shaders**: Developed custom shaders for visual effects and optimization.
+- **Conducted UniTask Team Workshops**: Led workshops to teach team members best practices for using UniTask, resulting in better asynchronous programming across the codebase.
 
 ### Challenges and solutions
-- TODO
+- **Integrating Custom Systems with Unity's Timeline**: Faced challenges in synchronizing proprietary cutscene tools with Unity's Timeline. 
+  - _Solution_: Developed custom adapters to ensure seamless integration and synchronization.​

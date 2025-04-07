@@ -31,3 +31,7 @@
   @include themed(background-color, $light, $dark);
 }
 
+body {
+  color: $text-black;
+}
+

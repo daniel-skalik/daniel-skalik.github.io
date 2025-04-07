@@ -85,16 +85,16 @@ layout: default
 
     {%- endif -%}
 
-    {%- assign linkified_content = content -%}
-    {% for link in site.data.links.tools %}
-        {% capture link_html %}
-        {{ link.name }} <a href="{{ link.url }}" class="no-underline" title="External link"><sup><i class="fas fa-external-link-alt font-size"></i></sup></a>
-        {% endcapture %}
+<!--    {%- assign linkified_content = content -%}-->
+<!--    {% for link in site.data.links.tools %}-->
+<!--        {% capture link_html %}-->
+<!--        {{ link.name }} <a href="{{ link.url }}" class="no-underline" title="External link"><sup><i class="fas fa-external-link-alt font-size"></i></sup></a>-->
+<!--        {% endcapture %}-->
 
-        {%- assign linkified_content = linkified_content | replace: link.name, link_html -%}
-    {% endfor %}
+<!--        {%- assign linkified_content = linkified_content | replace: link.name, link_html -%}-->
+<!--    {% endfor %}-->
 
-    {{ linkified_content }}
+    {{ content }}
 
     {%- if page.project_links -%}
 
