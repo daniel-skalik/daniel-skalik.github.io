@@ -34,17 +34,17 @@ team_size: 25
 ---
 
 ### My Contributions
-- **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.​
-- **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.​
-- **NPC Logic**: Designed and implemented AI behaviors for non-playable characters to enhance immersion.​
-- **Wwise Integration**: Integrated Wwise for audio management, addressing sound engineers' requests to enrich the game's soundscape.​
-- **Addressables Integration**: Utilized Unity's Addressables system for efficient asset management and loading.​
-- **Cutscenes**: Integrated custom systems with Unity's Timeline to create seamless in-game cutscenes.​
-- **Dialogue System**: Developed a robust system to manage in-game conversations and branching dialogues.​
-- **Service Locator**: Implemented a service locator pattern to streamline access to game services and improve code maintainability.​
+- **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.
+- **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.
+- **Service Locator**: Implemented a service locator pattern to streamline access to game services and improve code maintainability.
+- **Cutscenes**: Integrated custom systems with Unity's Timeline to create seamless in-game cutscenes.
+- **Dialogue System**: Developed a robust system to manage in-game conversations and branching dialogues.
 - **Writing/making Shaders**: Developed custom shaders for visual effects and optimization.
+- **Wwise Integration**: Integrated Wwise for audio management, addressing sound engineers' requests to enrich the game's soundscape.
+- **Addressables Integration**: Utilized Unity's Addressables system for efficient asset management and loading.
 - **Conducted UniTask Team Workshops**: Led workshops to teach team members best practices for using UniTask, resulting in better asynchronous programming across the codebase.
+- **NPC Logic**: Designed and implemented AI behaviors for non-playable characters to enhance immersion.
 
 ### Challenges and solutions
 - **Integrating Custom Systems with Unity's Timeline**: Faced challenges in synchronizing proprietary cutscene tools with Unity's Timeline. 
-  - _Solution_: Developed custom adapters to ensure seamless integration and synchronization.​
+  - _Solution_: Developed custom adapters to ensure seamless integration and synchronization.
