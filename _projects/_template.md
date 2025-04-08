@@ -17,8 +17,6 @@ project_duration: DURATION
 team_size: TEAM_SIZE
 ---
 
-### Game features
-
-### Technologies
+### My Contributions
 
 ### Challenges and solutions

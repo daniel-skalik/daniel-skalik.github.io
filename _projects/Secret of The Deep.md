@@ -24,9 +24,9 @@ project_links: [ https://www.esanti.games/, https://store.steampowered.com/app/2
 client: Esanti
 
 description: >-
-  Single-player action-adventure game, blending RPG mechanics, hack-and-slash combat, and resource management. 
-  Set in a dark and mysterious world called "The Deep," players battle through hordes of corrupted enemies, gather resources, and uncover hidden secrets. \n
-  The game emphasizes exploration, storytelling, and rebuilding a settlement while uncovering the protagonist's enigmatic past.
+  Secret of the Deep is a single-player, third-person action-adventure game with RPG elements. \n
+  Set in a world ravaged by wars and plague, players assume the role of a nameless hero summoned by Death to uncover and combat the darkness lurking in the Deep. \n
+  The game offers a challenging journey toward the light, immersing players in a richly atmospheric environment. 
 project_scope: Indie
 project_role: Unity Developer
 project_duration: 1 year
@@ -36,7 +36,7 @@ team_size: 25
 ### My Contributions
 - **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.
 - **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.
-- **Service Locator**: Implemented a service locator pattern to streamline access to game services and improve code maintainability.
+- **Service Locator**: Implemente~~~~d a service locator pattern to streamline access to game services and improve code maintainability.
 - **Cutscenes**: Integrated custom systems with Unity's Timeline to create seamless in-game cutscenes.
 - **Dialogue System**: Developed a robust system to manage in-game conversations and branching dialogues.
 - **Writing/making Shaders**: Developed custom shaders for visual effects and optimization.
