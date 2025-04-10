@@ -22,8 +22,8 @@ project_duration: 1 year 6 months
 team_size: 10
 ---
 
-### Game features
+### My Contributions
 
-### Technologies
+photon pun 2
 
 ### Challenges and solutions

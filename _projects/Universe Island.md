@@ -4,16 +4,17 @@ order: 2
 
 name: Universe Island
 image: /assets/images/universe-island/thumbnail.png
-carousel_images: 
+carousel_images:
         [
           /assets/images/universe-island/1.png,
           /assets/images/universe-island/2.webp,
           /assets/images/universe-island/3.webp,
           /assets/images/universe-island/4.webp,
           /assets/images/universe-island/5.png,
+          /assets/images/universe-island/6.png,
         ]
-tools: [Desktop, Android, iOS]
-project_links: [https://universeisland.games/]
+tools: [ Desktop, Android, iOS ]
+project_links: [ https://universeisland.games/, https://apkpure.com/universe-island/com.UniverseIslandLLC.UniverseIsland/amp ]
 client: Universe Island LLC
 
 description: >-

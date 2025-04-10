@@ -17,8 +17,6 @@ project_duration: 6 months
 team_size: 5
 ---
 
-### Game features
-
-### Technologies
+### My Contributions
 
 ### Challenges and solutions

@@ -4,9 +4,15 @@ order: 5
 
 name: Virtuloc - Virtual Showroom Platform
 image: /assets/images/virtuloc/thumbnail.jpg
-carousel_images: []
-tools: [Web]
-project_links: [https://www.virtuloc.com/]
+video: XJ6k3YSsqRc
+carousel_images:
+  [
+    /assets/images/virtuloc/1.png,
+    /assets/images/virtuloc/2.png,
+    /assets/images/virtuloc/3.png,
+  ]
+tools: [ Web ]
+project_links: [ https://www.virtuloc.com/, https://presentigo.com/online_showroom/ ]
 client: Virtuloc
 
 description: >-
@@ -19,8 +25,15 @@ project_duration: 6 months
 team_size: 8
 ---
 
-### Game features
+### My Contributions
 
-### Technologies
+- **Backend Development with DarkRift Networking:**
+  - Engineered a scalable backend infrastructure using DarkRift Networking to support real-time user interactions and data synchronization.
+  - Implemented user synchronization mechanisms to ensure consistent experiences across all clients.
+  - Designed and managed virtual rooms to facilitate organized and immersive user engagements.
+- **Custom Remote Procedure Call (RPC) System:**
+  - Developed a bespoke RPC system to enable efficient and secure communication between clients and the server, enhancing the platform's responsiveness.
+- **User Environment Serialization and Deserialization:**
+  - Created systems for users to customize and save their virtual environments, including modifications to features, colors, textures, avatars, and the placement of video and image displays.
+  - Ensured that user-generated configurations are accurately serialized and deserialized, allowing for seamless storage and retrieval of personalized settings.
 
-### Challenges and solutions

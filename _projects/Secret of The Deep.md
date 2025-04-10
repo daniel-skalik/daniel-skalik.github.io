@@ -34,6 +34,7 @@ team_size: 25
 ---
 
 ### My Contributions
+
 - **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.
 - **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.
 - **Service Locator**: Implemente~~~~d a service locator pattern to streamline access to game services and improve code maintainability.
