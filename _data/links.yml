@@ -22,13 +22,13 @@ tools:
 clients:
   - name: Tieto
     url: https://www.tietoevry.com/
-  - name: Craneballs
+  - name: Craneballs s.r.o.
     url: https://visiongame.cz/studio/craneballs/
-  - name: Retrobot
+  - name: Retrobot s.r.o.
     url: https://www.retrobot.cz/
   - name: Universe Island LLC
     url: https://universeisland.games/
-  - name: Virtuloc
+  - name: Virtuloc s.r.o.
     url: https://www.virtuloc.com/
-  - name: Esanti
+  - name: Esanti Games s.r.o.
     url: https://www.esanti.games/

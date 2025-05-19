@@ -3,7 +3,7 @@
     {% for item in site.data.timeline %}
       <div class="timeline-item">
         <div class="content">
-          <h2>{{ item.title | markdownify }}</h2>
+          <h2 class="h6"><b>{{ item.company }}</b>, {{ item.title }} <small class="text-muted p-2">{{ item.location }}</small></h2>
           {%- assign date = item.from -%}
           {%- unless item.to == nil or item.to == "" -%}
               {%- assign date = item.from | append: " — " | append: item.to -%}

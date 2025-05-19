@@ -13,7 +13,7 @@ carousel_images:
   ]
 tools: [ Web ]
 project_links: [ https://www.virtuloc.com/, https://presentigo.com/online_showroom/ ]
-client: Virtuloc
+client: Virtuloc s.r.o.
 
 description: >-
   The Virtuloc platform is a web-based virtual showroom solution designed to meet diverse business needs. 

@@ -21,7 +21,7 @@ carousel_images:
         ]
 tools: [ Desktop, iOS, Android ]
 project_links: [ https://www.esanti.games/, https://store.steampowered.com/app/2709410 ]
-client: Esanti
+client: Esanti Games s.r.o.
 
 description: >-
   Secret of the Deep is a single-player, third-person action-adventure game with RPG elements. \n
@@ -37,7 +37,7 @@ team_size: 25
 
 - **Quest System**: Developed a comprehensive quest system to guide players through the narrative and side missions.
 - **Director Tool**: Created a visual scripting system for game designers, integrating with all game systems to handle edge cases without developer intervention.
-- **Service Locator**: Implemente~~~~d a service locator pattern to streamline access to game services and improve code maintainability.
+- **Service Locator**: Implemented a service locator pattern to streamline access to game services and improve code maintainability.
 - **Cutscenes**: Integrated custom systems with Unity's Timeline to create seamless in-game cutscenes.
 - **Dialogue System**: Developed a robust system to manage in-game conversations and branching dialogues.
 - **Writing/making Shaders**: Developed custom shaders for visual effects and optimization.
@@ -47,5 +47,5 @@ team_size: 25
 - **NPC Logic**: Designed and implemented AI behaviors for non-playable characters to enhance immersion.
 
 ### Challenges and solutions
-- **Integrating Custom Systems with Unity's Timeline**: Faced challenges in synchronizing proprietary cutscene tools with Unity's Timeline. 
+- **Integrating Custom Systems with Unity's Timeline**: Faced challenges in synchronizing proprietary tools with Unity's Timeline. 
   - _Solution_: Developed custom adapters to ensure seamless integration and synchronization.

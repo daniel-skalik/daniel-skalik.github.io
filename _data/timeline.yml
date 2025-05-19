@@ -1,51 +1,63 @@
-- title: "**Unity Developer**, Esanti, Czechia"
-  from: 2023
-  to: 2024
+- title: Unity Developer
+  company: Esanti Games s.r.o
+  location: Remote
+  from: May. 2023
+  to: Jul. 2024
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: "**Unity Developer**, Universe Island, UK"
-  from: 2021
-  to: 2023
+- title: Unity Developer
+  company: Universe Island LLC
+  location: Remote
+  from: Oct. 2021
+  to: Dec. 2022
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: "**Unity Developer**, Retrobot, Czechia"
-  from: 2019
-  to: 2021
+- title: Unity Developer
+  company: Retrobot s.r.o.
+  location: Ostrava, Czechia
+  from: Oct. 2019
+  to: Dec. 2021
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: "**Unity Developer**, Virtuloc, Czechia"
-  from: 2021
-#  to: 2021
+- title: Unity Developer
+  company: Virtuloc s.r.o.
+  location: Ostrava, Czechia
+  from: Jul. 2021
+  to: Dec. 2021
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: "**Unity Developer**, Craneballs, Czechia"
-  from: 2018
-  to: 2019
+- title: Unity Developer
+  company: Craneballs s.r.o.
+  location: Ostrava, Czechia
+  from: Oct. 2018
+  to: Oct. 2019
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: "**Software Developer**, Tieto, Czechia"
-  from: 2017
-  to: 2018
+- title: Software Developer
+  company: Tieto
+  location: Ostrava, Czechia
+  from: Dec. 2017
+  to: Oct. 2018
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

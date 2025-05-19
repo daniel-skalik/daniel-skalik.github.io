@@ -15,7 +15,7 @@ carousel_images:
 video: GvluxMkC9ag
 tools: [ Android, iOS ]
 project_links: [ https://play.google.com/store/apps/details?id=com.craneballs.smackdown&hl=cs ]
-client: Craneballs
+client: Craneballs s.r.o.
 
 description: >-
   A fast-paced, real-time PvP action game that lets you step into the shoes of a unique medieval hero, such as a drunken Viking or a fierce executioner. \n

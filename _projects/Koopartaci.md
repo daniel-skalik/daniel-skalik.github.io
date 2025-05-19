@@ -22,7 +22,7 @@ carousel_images:
         ]
 tools: [ Android, iOS ]
 project_links: [ https://apkpure.com/koopar%C5%A5%C3%A1ci/com.kooperativa.koopartaci ]
-client: Retrobot
+client: Retrobot s.r.o.
 
 description: >-
   A unique gamified application primarily designed for employees and traders of Kooperativa Insurance. \n
